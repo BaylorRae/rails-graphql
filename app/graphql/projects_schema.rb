@@ -1,3 +1,3 @@
 ProjectsSchema = GraphQL::Schema.define do
-  query(Types::QueryType)
+  query Types::QueryType
 end
