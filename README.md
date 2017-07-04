@@ -1,24 +1,5 @@
-# README
+## Rails + GraphQL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This the source code from my tutorial on [adding GraphQL to Rails][yt_video].
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[yt_video]: https://youtu.be/DaznKqh5Ypk
