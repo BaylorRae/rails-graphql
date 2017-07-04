@@ -64,6 +64,9 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.4.2)
+      rails
+    graphql (1.6.4)
     i18n (0.8.4)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -171,6 +174,8 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.3.0)
   faker (~> 1.7.3)
+  graphiql-rails
+  graphql (~> 1.6.4)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)

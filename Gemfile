@@ -55,3 +55,5 @@ group :development do
 end
 
 gem 'devise', '~> 4.3.0'
+gem 'graphql', '~> 1.6.4'
+gem 'graphiql-rails', group: :development
