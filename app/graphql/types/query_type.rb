@@ -11,6 +11,8 @@ Types::QueryType = GraphQL::ObjectType.define do
     }
   end
 
+  field :node, GraphQL::Relay::Node.field
+
   field :me, Types::UserType do
     description "the current user"
     resolve ->(root, args, ctx) { ctx[:current_user] }
@@ -18,6 +20,6 @@ Types::QueryType = GraphQL::ObjectType.define do
 
   field :projects, types[Types::ProjectType] do
     description "the projects for the current user"
-    resolve ->(root, args, ctx) { ctx[:current_user].projects }
+    resolve ->(root, args, ctx) { Project.all }
   end
 end
